@@ -1,3 +1,12 @@
+# Python libs
+src/site-packages
+
+# Own adds
+build
+.clickable
+CMakeLists.txt.user
+CMakeLists.txt.user.shared
+
 # C++ objects and libs
 *.slo
 *.lo

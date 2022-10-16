@@ -1,0 +1,15 @@
+{
+    "name": "coach.klmhsb42",
+    "description": "An AI coach app as personal trainer",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Coach",
+    "hooks": {
+        "coach": {
+            "apparmor": "coach.apparmor",
+            "desktop":  "coach.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Sebastian Britz <email@domain.org>",
+    "framework" : "@CLICK_FRAMEWORK@"
+}

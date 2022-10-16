@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the coach.klmhsb42 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: coach.klmhsb42\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-20 09:32+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/About.qml:40
+msgid "About"
+msgstr ""
+
+#: ../qml/About.qml:95 ../qml/Main.qml:75 coach.desktop.in.h:1
+msgid "Coach"
+msgstr ""
+
+#: ../qml/About.qml:103
+msgid "Version %1. Under License %2"
+msgstr ""
+
+#: ../qml/About.qml:136
+msgid "About Coach"
+msgstr ""
+
+#: ../qml/About.qml:137
+msgid "Source"
+msgstr ""
+
+#: ../qml/About.qml:138 ../qml/About.qml:157
+msgid "hosted at Gitlab"
+msgstr ""
+
+#: ../qml/About.qml:141
+msgid "Support"
+msgstr ""
+
+#: ../qml/About.qml:142
+msgid "Issues & Wishes"
+msgstr ""
+
+#: ../qml/About.qml:151 ../qml/About.qml:152 ../qml/About.qml:155
+msgid "Maintainer"
+msgstr ""
+
+#: ../qml/About.qml:156
+msgid "My Work"
+msgstr ""
+
+#: ../qml/About.qml:160
+msgid "Donations"
+msgstr ""
+
+#: ../qml/About.qml:162
+msgid "Support ubports"
+msgstr ""
+
+#: ../qml/History.qml:18
+msgid "History"
+msgstr ""
+
+#: ../qml/Main.qml:178
+msgid "Welcome, happy to see you!"
+msgstr ""
+
+#: ../qml/Main.qml:213
+msgid "00:00:000"
+msgstr ""
+
+#: ../qml/Main.qml:260
+msgid "Yoga for beginners"
+msgstr ""
+
+#: ../qml/Main.qml:449
+msgid "Live camera."
+msgstr ""
+
+#: ../qml/Profile.qml:18
+msgid "Profile"
+msgstr ""
+
+#: ../qml/Select.qml:18
+msgid "Select"
+msgstr ""
+
+#: ../qml/Settings.qml:27
+msgid "Settings"
+msgstr ""
+
+#: ../qml/Settings.qml:73
+msgid "Record the exercise?"
+msgstr ""
