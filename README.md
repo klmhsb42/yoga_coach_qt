@@ -21,7 +21,7 @@ I thank all people from [Spiced Academy](https://www.spiced-academy.com/de/about
 
 see ...
 
-## How to build and develop
+## How to build and develop for Ubuntu Touch
 
 First, install clickable https://clickable-ut.dev/en/latest/
 

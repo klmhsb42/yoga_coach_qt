@@ -1,6 +1,6 @@
 {
     "name": "coach.klmhsb42",
-    "description": "An AI coach app as personal trainer",
+    "description": "A computer vision based yoga coach app ",
     "architecture": "@CLICK_ARCH@",
     "title": "Coach",
     "hooks": {

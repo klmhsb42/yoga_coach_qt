@@ -26,14 +26,6 @@ import QtMultimedia 5.4
 //import Morph.Web 0.1
 import QtWebEngine 1.7
 
-import "../src/js-libs/camera_utils.js" as Camera_utils
-import "../src/js-libs/control_utils.js" as Control_utils
-import "../src/js-libs/control_utils_3d.js" as Control_utils_3d
-import "../src/js-libs/drawing_utils.js" as Drawing_utils
-import "../src/js-libs/pose.js" as Pose
-
-//import "../src/script.js" as Video_recording
-
 
 
 
