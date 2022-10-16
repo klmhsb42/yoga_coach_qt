@@ -13,6 +13,10 @@ This is the native app version of Yoga Coach. The project was started and detail
 
 This is a fork of the ubuntu touch app "cryptoprice" from dev Malte Kiefer https://gitlab.com/maltekiefer/cryptoprice
 
+As for the web version:
+
+I thank all people from [Spiced Academy](https://www.spiced-academy.com/de/about) and [Bundesagentur f&uuml;r Arbeit](https://www.arbeitsagentur.de/) that supported me. Images for exercises were taken from [commons.wikimedia.org](https://commons.wikimedia.org/). The respective URL and date of access are shown in the app. Descriptions of exercises are taken from the [en.wikipedia.org](https://en.wikipedia.org/wiki/) JSON API and a respective link given to further read the article. The image or video stream processing was followed from the [MediaPipe Pose python API](https://google.github.io/mediapipe/solutions/pose.html#python-solution-api). The angles were calculated following [this thread](https://stackoverflow.com/questions/2827393/angles-between-two-n-dimensional-vectors-in-python).
+
 ## Screenshots
 
 see ...
