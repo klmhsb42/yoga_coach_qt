@@ -2,6 +2,8 @@
 
 A computer vision based yoga coach qt (QML) app
 
+![logo](https://github.com/klmhsb42/yoga_coach_qt/blob/main/assets/logo.svg)
+
 ## About
 
 This is the native app version of Yoga Coach. The project was started and detailed documented in the [web version](https://github.com/klmhsb42/yoga_coach_web).
