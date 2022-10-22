@@ -29,6 +29,8 @@ import QtWebEngine 1.7
 
 
 
+
+
 MainView {
     id: root
     objectName: 'mainView'
@@ -46,6 +48,10 @@ MainView {
 
     width: units.gu(45)
     height: units.gu(75)
+
+
+
+
 
     Settings {
             id: settings
@@ -283,43 +289,39 @@ Rectangle {
             clip:true
 
 
+
                 ListModel{
                         id: mymodel
-                                ListElement{
-                                    headline: "1/7 Half splits II"
-                                    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                                    source: "../src/slide/yoga-1.png"
-                                }
+
+
+                        /*
                                 ListElement{
                                     headline: "2/7 Tree with arms up"
                                     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                                    source: "../src/slide/yoga-2.png"
+                                    source: "exercises/0/1/yoga.jpg"
                                 }
                                 ListElement{
                                     headline: "3/7 Lord of the dance"
                                     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                                    source: "../src/slide/yoga-3.png"
+                                    source: "exercises/0/2/yoga.jpg"
                                 }
                                 ListElement{
                                     headline: "4/7 Half boat"
                                     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                                    source: "../src/slide/yoga-4.png"
+                                    source: "exercises/0/3/yoga.jpg"
                                 }
                                 ListElement{
                                     headline: "5/7 Staning splits"
                                     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                                    source: "../src/slide/yoga-5.png"
-                                }
-                                ListElement{
-                                    headline: "6/7 Tiger"
-                                    description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                                    source: "../src/slide/yoga-6.png"
+                                    source: "exercises/0/5/yoga.jpg"
                                 }
                                 ListElement{
                                     headline: "7/7 Warrior III with Prayer Hands"
                                     description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                                    source: "../src/slide/yoga-7.png"
+                                    source: "exercises/0/6/yoga.jpg"
                                 }
+
+                                */
                     }
 
 
@@ -365,8 +367,8 @@ Rectangle {
                                         Image {
                                                                     id: swipeimg
                                                                     source: model.source
-                                                                    width: 250
-                                                                    height: 250
+
+                                                                    height: parent.height
                                                                     anchors {
                                                                         verticalCenter: parent.verticalCenter
                                                                         horizontalCenter: parent.horizontalCenter
@@ -431,6 +433,7 @@ Rectangle {
                 Layout.preferredWidth  : grid.prefWidth(this)
                 Layout.preferredHeight : grid.prefHeight(this)
 
+                /*
                 Label {
                     anchors {
                         top: header.bottom
@@ -445,7 +448,9 @@ Rectangle {
                     color: '#FFFFFF'
                 }
 
+                */
 
+/*
                 WebEngineView {
                         url: Qt.resolvedUrl( "../src/test.html" )
                         x: 0
@@ -458,8 +463,11 @@ Rectangle {
                             right: parent.right
                         }
                     }
+*/
 
-/*
+
+
+                /*
                 Item {
                     width: 640
                     height: 360
@@ -494,8 +502,8 @@ Rectangle {
                     }
                 }
 
-*/
 
+*/
 
 
 
@@ -512,9 +520,10 @@ Rectangle {
                 Layout.preferredHeight : grid.prefHeight(this)
 
                 ColumnLayout {
-                    width: 200
+                    width: parent //parent.width
                     anchors.centerIn: parent
                     spacing: 25
+
 
                     RowLayout {
 
@@ -597,7 +606,11 @@ Rectangle {
         id: python
 
         Component.onCompleted: {
+
             addImportPath(Qt.resolvedUrl('../src/'));
+
+
+
 
             importModule('example', function() {
                 console.log('module imported');
@@ -607,14 +620,14 @@ Rectangle {
                 //})
 
             });
-
+/*
             importModule('testpose', function() {
                 console.log('pose module imported');
                 testpose();
 
 
             });
-
+*/
 
         }
 
@@ -623,7 +636,13 @@ Rectangle {
         }
     }
 
+
+
+
     function startpython(){
+
+
+
         python.call('example.time', ['Hello World!'], function(returnValue) {
             //console.log('example.time returned ' + returnValue);
             headlinetxt.text = returnValue[0];
@@ -675,5 +694,33 @@ Rectangle {
 
 
 
+    Component.onCompleted: {
+
+            var xhr = new XMLHttpRequest;
+            xhr.open("GET", "../src/exercises.json");
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == XMLHttpRequest.DONE) {
+                    var response = xhr.responseText;
+                    // use file contents as required
+                    var JsonObject= JSON.parse(response);
+                    //var objectArray = parseJSONString(json, query);
+
+                    for ( var key in JsonObject['category'][0]['exercise'] ) {
+
+                        //console.log(JsonObject['category'][0]['exercise'][key]["title"]);
+                        var exercise_title = JsonObject['category'][0]['exercise'][key]["title"];
+                        var exercise_img = "../" + JsonObject['category'][0]['exercise'][key]["img"].replace("static","src");
+                        //mymodel.append( jo );
+                        mymodel.append({headline: exercise_title, source: exercise_img});
+                    }
+
+                }
+            };
+            xhr.send();
+        }
+
+
 
 }
+
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: coach.klmhsb42\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-16 06:28+0000\n"
+"POT-Creation-Date: 2022-10-22 08:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: ../qml/About.qml:95 ../qml/Main.qml:67 coach.desktop.in.h:1
+#: ../qml/About.qml:95 ../qml/Main.qml:73 coach.desktop.in.h:1
 msgid "Coach"
 msgstr ""
 
@@ -69,20 +69,16 @@ msgstr ""
 msgid "History"
 msgstr ""
 
-#: ../qml/Main.qml:170
+#: ../qml/Main.qml:176
 msgid "Welcome, happy to see you!"
 msgstr ""
 
-#: ../qml/Main.qml:205
+#: ../qml/Main.qml:211
 msgid "00:00:000"
 msgstr ""
 
-#: ../qml/Main.qml:252
+#: ../qml/Main.qml:258
 msgid "Yoga for beginners"
-msgstr ""
-
-#: ../qml/Main.qml:441
-msgid "Live camera."
 msgstr ""
 
 #: ../qml/Profile.qml:18
